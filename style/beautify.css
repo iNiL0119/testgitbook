@@ -1,0 +1,18 @@
+.gitbook-link {
+	display: none !important;
+}
+
+.book-summary ul.summary li span {
+	font-weight: bold;
+}
+
+.book-summary ul.summary li.active > a::before {
+	content: '🔥';
+	position: absolute;
+	left: 10px;
+	top: 8px;
+}
+
+.book-summary ul.summary li a, .book-summary ul.summary li span {
+	padding-left: 30px;
+}
