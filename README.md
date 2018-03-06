@@ -15,11 +15,19 @@
 npm install -g gitbook-cli
 ```
 
-##### 使用
+##### 使用([参考](http://www.chengweiyang.cn/gitbook/basic-usage/README.html))
     1 使用`gitbook init`初始化书籍目录
     2 使用`gitbook serve`启动服务
     3 使用`gitbool build`编译代码
 
-
+##### GitHub集成
+    1 首先本地创建gitbook项目
+    2 github创建repository并将本地项目push上去
+    3 进入gitbook.com注册账号，并创建book（项目）
+    4 进入book设置，绑定github，输入github repo（格式为用户名/repo名）
+    5 如果同步的时候出错，一定要选择同步到github项目，不要选择gitbook
+    
+##### 绑定域名
+    1 
 
 
