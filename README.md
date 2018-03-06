@@ -10,9 +10,16 @@
 
 ### 正文
 
-##### gitbook开发环境设置
+##### 安装
 ```powershell
 npm install -g gitbook-cli
-mkdir gitbook && cd gitbook
-gitbook init
 ```
+
+##### 使用
+    1 使用`gitbook init`初始化书籍目录
+    2 使用`gitbook serve`启动服务
+    3 使用`gitbool build`编译代码
+
+
+
+
