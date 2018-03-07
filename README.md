@@ -28,6 +28,8 @@ npm install -g gitbook-cli
     5 如果同步的时候出错，一定要选择同步到github项目，不要选择gitbook
     
 ##### 绑定域名
-    1 
+    1 在GitBook官网的book设置页面，选中Domains（域名），在Domain for content（内容中）输入需要的域名比如book.xxx.com，
+    点击保存。这时可能提示绑定出错，因为该域名还没有解析。
+    2 将book.xxx.com绑定到CNAME，主机记录为book，记录值为www.gitbooks.io，保存并启用，一般至少需要10分钟才能生效
 
 
